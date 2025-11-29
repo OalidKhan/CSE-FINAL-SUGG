@@ -25,4 +25,5 @@ int main()
         }
     }
     printf("Mark Range: %d-%d",lowest,highest);
+    return 0;
 }
