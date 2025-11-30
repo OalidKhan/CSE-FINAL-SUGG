@@ -3,8 +3,10 @@
 int main() 
 {
     char str[100];
+    printf("Enter any string: ");
     fgets(str , 100 , stdin);
     int length = strlen(str);
+    printf("After Convert: ");
     for(int i=0 ; i<length ; i++)
     {
         if(str[i]>='a' && str[i]<='z')
